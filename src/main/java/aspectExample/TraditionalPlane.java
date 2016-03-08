@@ -2,7 +2,7 @@ package aspectExample;
 
 public class TraditionalPlane {
 
-	public void reservaAsiento(int fila, int número) {
+	public void reserveSeat(int row, int number) {
 		// ... chequear autorización
 		// ... chequear que está libre
 		// ... bloquear asiento 
@@ -14,7 +14,7 @@ public class TraditionalPlane {
 		// ... Desbloquear
 	}
 	
-	void reservarFila(int fila) {
+	void reserveRow(int fila) {
 		// ... chequear autorización
 				// ... chequear que está libre
 				// ... bloquear fila

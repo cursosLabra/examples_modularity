@@ -6,8 +6,6 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import aspectExample.service.HelloWorldService;
-
 @SpringBootApplication
 public class Driver implements CommandLineRunner {
   
