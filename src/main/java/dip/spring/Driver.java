@@ -20,6 +20,7 @@ public class Driver implements CommandLineRunner {
   
   @Override
   public void run(String... args) {
+    System.out.println("Running game");
     game.play();
   }
 }
