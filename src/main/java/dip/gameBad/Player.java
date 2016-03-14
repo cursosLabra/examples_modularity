@@ -1,8 +1,5 @@
 package dip.gameBad;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
-
 public class Player {
 
   String name;
