@@ -1,4 +1,4 @@
-package fluent;
+package fluent.bad;
 
 public class Product {
 
@@ -10,14 +10,12 @@ public class Product {
     this.price = price;
   }
   
-  public Product setPrice(Double price) {
+  public void setPrice(Double price) {
     this.price = price;
-    return this;
   }
   
-  public Product setName(String name) {
+  public void setName(String name) {
     this.name = name;
-    return this;
   }
   
   @Override 
